@@ -41,6 +41,14 @@ solana --version
 solana-install init 1.16.4
 ```
 
+我们会用到TypeScript语言来编写交易测试脚本，所以还需要安装node.js和TypeScript相关的工具链：
+```
+curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+sudo apt-get install -y nodejs npm
+npm install -g typescript
+npm install -g ts-node
+```
+
 ### 设置网络环境
 官方RPC地址分别是：
 ```
