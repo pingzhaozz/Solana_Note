@@ -1,0 +1,324 @@
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="-468 72 588 216" width="588px" height="216px">
+   <defs>
+    <g>
+     <filter y="-50%" height="200%">
+      <fedropshadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.03" flood-color="#000000">
+      </fedropshadow>
+     </filter>
+     <filter y="-50%" height="200%">
+      <fedropshadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.09" flood-color="#000000">
+      </fedropshadow>
+     </filter>
+     <filter y="-50%" height="200%">
+      <fedropshadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.12" flood-color="#000000">
+      </fedropshadow>
+     </filter>
+     <filter y="-50%" height="200%">
+      <fedropshadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.16" flood-color="#000000">
+      </fedropshadow>
+     </filter>
+     <filter y="-50%" height="200%">
+      <fedropshadow dx="0" dy="3" stdDeviation="8" flood-opacity="0.06" flood-color="#000000">
+      </fedropshadow>
+     </filter>
+     <filter y="-50%" height="200%">
+      <fedropshadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.03" flood-color="#000000">
+      </fedropshadow>
+     </filter>
+     <filter y="-50%" height="200%">
+      <fedropshadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.08" flood-color="#000000">
+      </fedropshadow>
+     </filter>
+     <filter y="-50%" height="200%">
+      <fedropshadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.08" flood-color="#000000">
+      </fedropshadow>
+     </filter>
+    </g>
+   </defs>
+   <g>
+    <rect x="-468" y="72" width="588" height="216" rx="3" ry="3" fill="#FFFFFF" filter="url(#white-fill-shadow)">
+    </rect>
+    <g>
+     <rect x="-468" y="72" width="588" height="216" rx="3" ry="3" fill="#FFFFFF">
+     </rect>
+    </g>
+    <g>
+     <g>
+      <g>
+       <rect x="-264" y="156" width="180" height="36" rx="3" ry="3" fill="#F2F5F7">
+       </rect>
+       <rect y="156" rx="3" stroke="#C3CFD9" fill="none" stroke-linejoin="round" width="180" stroke-linecap="round" stroke-width="2" x="-264" ry="3" height="36">
+       </rect>
+       <g class="content">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+            </g>
+            <text fill="#293845" hover-props="{}">
+             <tspan x="-206.06640625" y="180.5" font-family="DIN Next, system-ui, sans-serif" font-size="18" font-style="normal" font-weight="normal">
+              
+              
+              
+              Address
+             </tspan>
+            </text>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g>
+      <g>
+       <rect x="-84" y="156" width="180" height="36" rx="3" ry="3" fill="#F2F5F7">
+       </rect>
+       <rect y="156" rx="3" stroke="#C3CFD9" fill="none" stroke-linejoin="round" width="180" stroke-linecap="round" stroke-width="2" x="-84" ry="3" height="36">
+       </rect>
+       <g class="content">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+            </g>
+            <text fill="#293845" hover-props="{}">
+             <tspan x="-39.62109375" y="180.5" font-family="DIN Next, system-ui, sans-serif" font-size="18" font-style="normal" font-weight="normal">
+              
+              
+              
+              AccountInfo
+             </tspan>
+            </text>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g>
+      <g>
+       <rect x="-84" y="120" width="180" height="36" rx="3" ry="3" fill="#CED8E0">
+       </rect>
+       <rect y="120" rx="3" stroke="#788896" fill="none" stroke-linejoin="round" width="180" stroke-linecap="round" stroke-width="2" x="-84" ry="3" height="36">
+       </rect>
+       <g class="content">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+            </g>
+            <text fill="#293845" hover-props="{}">
+             <tspan x="-15.2763671875" y="144.5" font-family="DIN Next, system-ui, sans-serif" font-size="18" font-style="normal" font-weight="normal">
+              
+              
+              
+              Value
+             </tspan>
+            </text>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g>
+      <g>
+       <rect x="-264" y="120" width="180" height="36" rx="3" ry="3" fill="#CED8E0">
+       </rect>
+       <rect y="120" rx="3" stroke="#788896" fill="none" stroke-linejoin="round" width="180" stroke-linecap="round" stroke-width="2" x="-264" ry="3" height="36">
+       </rect>
+       <g class="content">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+            </g>
+            <text fill="#293845" hover-props="{}">
+             <tspan x="-188.3095703125" y="144.5" font-family="DIN Next, system-ui, sans-serif" font-size="18" font-style="normal" font-weight="normal">
+              
+              
+              
+              Key
+             </tspan>
+            </text>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g>
+      <g>
+       <rect x="-264" y="228" width="180" height="36" rx="3" ry="3" fill="#F2F5F7">
+       </rect>
+       <rect y="228" rx="3" stroke="#C3CFD9" fill="none" stroke-linejoin="round" width="180" stroke-linecap="round" stroke-width="2" x="-264" ry="3" height="36">
+       </rect>
+       <g class="content">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+            </g>
+            <text fill="#293845" hover-props="{}">
+             <tspan x="-206.06640625" y="252.5" font-family="DIN Next, system-ui, sans-serif" font-size="18" font-style="normal" font-weight="normal">
+              
+              
+              
+              Address
+             </tspan>
+            </text>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g>
+      <g>
+       <rect x="-84" y="228" width="180" height="36" rx="3" ry="3" fill="#F2F5F7">
+       </rect>
+       <rect y="228" rx="3" stroke="#C3CFD9" fill="none" stroke-linejoin="round" width="180" stroke-linecap="round" stroke-width="2" x="-84" ry="3" height="36">
+       </rect>
+       <g class="content">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+            </g>
+            <text fill="#293845" hover-props="{}">
+             <tspan x="-39.62109375" y="252.5" font-family="DIN Next, system-ui, sans-serif" font-size="18" font-style="normal" font-weight="normal">
+              
+              
+              
+              AccountInfo
+             </tspan>
+            </text>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g>
+      <g class="content">
+       <g>
+        <g>
+         <g>
+          <g>
+           <g>
+           </g>
+           <text fill="#293845" hover-props="{}">
+            <tspan x="-132" y="111.5" font-family="DIN Next, system-ui, sans-serif" font-size="27" font-style="normal" font-weight="normal">
+             
+             
+             
+             Accounts
+            </tspan>
+           </text>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g>
+      <g>
+       <path d="M-276,192c-2.48528,0 -4.5,2.01472 -4.5,4.5c0,2.48528 0,6.51472 0,9c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 0,0 0,0c0,0 -2.48528,0 0,0c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 0,6.51472 0,9c0,2.48528 2.01472,4.5 4.5,4.5" fill="rgba(0,0,0,0)">
+       </path>
+       <path d="M-276,192c-2.48528,0 -4.5,2.01472 -4.5,4.5c0,2.48528 0,6.51472 0,9c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 0,0 0,0c0,0 -2.48528,0 0,0c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 0,6.51472 0,9c0,2.48528 2.01472,4.5 4.5,4.5" fill="none" stroke="#788896" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+       </path>
+      </g>
+     </g>
+     <g>
+      <g class="content">
+       <g>
+        <g>
+         <g>
+          <g>
+           <g>
+           </g>
+           <text fill="#293845" hover-props="{}">
+            <tspan x="-444" y="216.5" font-family="DIN Next, system-ui, sans-serif" font-size="18" font-style="normal" font-weight="normal">
+             
+             
+             
+             Individual Account
+            </tspan>
+           </text>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g>
+      <g>
+       <rect x="-84" y="192" width="180" height="36" rx="3" ry="3" fill="#e0defd">
+       </rect>
+       <rect y="192" rx="3" stroke="#6558F5" fill="none" stroke-linejoin="round" width="180" stroke-linecap="round" stroke-width="2" x="-84" ry="3" height="36">
+       </rect>
+       <g class="content">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+            </g>
+            <text fill="#293845" hover-props="{}">
+             <tspan x="-39.62109375" y="216.5" font-family="DIN Next, system-ui, sans-serif" font-size="18" font-style="normal" font-weight="normal">
+              
+              
+              
+              AccountInfo
+             </tspan>
+            </text>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+     <g>
+      <g>
+       <rect x="-264" y="192" width="180" height="36" rx="3" ry="3" fill="#e0defd">
+       </rect>
+       <rect y="192" rx="3" stroke="#6558F5" fill="none" stroke-linejoin="round" width="180" stroke-linecap="round" stroke-width="2" x="-264" ry="3" height="36">
+       </rect>
+       <g class="content">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+            </g>
+            <text fill="#293845" hover-props="{}">
+             <tspan x="-206.06640625" y="216.5" font-family="DIN Next, system-ui, sans-serif" font-size="18" font-style="normal" font-weight="normal">
+              
+              
+              
+              Address
+             </tspan>
+            </text>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </svg>
