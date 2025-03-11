@@ -56,3 +56,27 @@ DevNet: https://api.devnet.solana.com
 TestNet: https://api.testnet.solana.com
 MainNet: https://api.mainnet-beta.solana.com
 ```
+
+### 安装Anchor
+--------
+
+`anchor`是solana的开发框架，开发solana合约要经常使用，它的底层封装了solana-web3.js，用于跟solana链上程序交互，可以类比为以太坊中的hardhat框架。
+
+```
+# cargo是rust的包管理器和构建工具\
+# 上文安装好了rust，就自带了cargo命令\
+cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
+
+# 使用最新的anchor版本就行，我的是 anchor-cli 0.30.1\
+avm install latest\
+avm use latest`
+```
+
+### 初始化一个Anchor程序
+```
+# solana-guide是自定义的，你可以使用任何名称
+anchor init solana-guide
+cd solana-guide
+anchor build
+```
+
