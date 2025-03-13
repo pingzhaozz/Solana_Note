@@ -20,8 +20,13 @@ https://solana.com/developers/guides/getstarted/setup-local-development
 
 Solana 开发学习之Solana 基础知识 / 寻月隐君
 ```bash
-//downloading v1.18.2 installer ✨ 1.18.2
-sh -c "$(curl -sSfL https://release.solana.com/v1.18.2/install)"
+//downloading v1.18.2 installer ✨ 1.18.22
+sh -c "$(curl -sSfL https://release.anza.xyz/v1.18.22/install)"
+
+// initializedAdding to .profile
+export PATH="/home/samman/.local/share/solana/install/active_release/bin:$PATH"
+
+...
 
 // initializedAdding to /Users/qiaopengjun/.profile
 export PATH="/Users/qiaopengjun/.local/share/solana/install/active_release/bin:$PATH" 
@@ -43,10 +48,24 @@ solana-install init 1.16.4
 
 我们会用到TypeScript语言来编写交易测试脚本，所以还需要安装node.js和TypeScript相关的工具链：
 ```
-curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
-sudo apt-get install -y nodejs npm
-npm install -g typescript
-npm install -g ts-node
+# 1. 安装 nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+# 2. 让 nvm 在命令行生效，我这里是.zshrc，你的可能是.bashrc，看你的具体环境
+source ~/.zshrc
+
+# 3. 安装 node 长期支持版本（--lts）
+nvm install --lts
+nvm use --lts
+
+# 4. 安装 yarn（node安装好，就有了npm命令）
+npm install -g yarn
+
+# 我安装的版本：
+# nvm  0.40.1
+# node v22.11.0
+# npm  10.9.0
+# yarn 1.22.22
 ```
 
 ### 设置网络环境
@@ -80,3 +99,38 @@ cd solana-guide
 anchor build
 ```
 
+Error: lock file version 4 requires `-Znext-lockfile-bump`
+Change `Cargo.lock` at head
+```
+- version = 4
++ version = 3
+```
+
+### 启动一个solana测试节点
+打开一个新的shell（原来的anchor项目shell不要关），执行如下命令：
+```
+# 1. 配置solana在本地运行
+solana config set --url localhost 
+
+# 2. 启动一个本地节点
+solana-test-validator
+```
+
+### 生成一个solana钱包，并运行测试
+回到anchor项目所在的shell，执行如下命令：
+```
+# 1. 生成solana钱包地址
+solana-keygen new -o ~/.config/solana/id.json
+
+# 2. 查看钱包地址
+solana address
+
+# 3. 给生成的钱包空投 sol 测试币
+solana airdrop 100 {钱包地址}
+
+# 4. 配置 program_id 与 Anchor 密钥同步
+anchor keys sync
+
+# 5. 执行测试命令
+anchor test --skip-local-validator
+```
