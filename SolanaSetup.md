@@ -1,5 +1,4 @@
-# Solana 开发学习之Solana 基础知识
-## Install the Solana CLI
+# Solana 开发学习之安装和运行
 
 ## 相关链接
 - [官方文档](https://docs.solanalabs.com/cli/install)
@@ -19,6 +18,7 @@ https://solana.com/developers/guides/getstarted/setup-local-development
 参考 https://mp.weixin.qq.com/s/_v63t3t9PgAbeLb4sLepBQ 
 
 Solana 开发学习之Solana 基础知识 / 寻月隐君
+### Install the Solana CLI
 ```bash
 //downloading v1.18.2 installer ✨ 1.18.22
 sh -c "$(curl -sSfL https://release.anza.xyz/v1.18.22/install)"
