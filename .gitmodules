@@ -1,0 +1,3 @@
+[submodule "solana_simple_example"]
+	path = solana_simple_example
+	url = https://github.com/blocksecteam/solana_simplified.git
