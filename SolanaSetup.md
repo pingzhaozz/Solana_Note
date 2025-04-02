@@ -134,3 +134,34 @@ anchor keys sync
 # 5. 执行测试命令
 anchor test --skip-local-validator
 ```
+
+
+### Substrate 区块链开发之本地网络
+
+安装  https://docs.substrate.io/install/macos/  
+
+本地网络启动实操 
+https://docs.substrate.io/tutorials/build-a-blockchain/build-local-blockchain/ 
+https://github.com/substrate-developer-hub/substrate-node-template 
+
+克隆仓库 
+```git clone git@github.com:substrate-developer-hub/substrate-node-template.git```
+
+编译。。。
+
+启动本地 Substrate 节点 
+```./target/release/node-template --dev --tmp```
+
+启动第一个区块链节点 alice 
+```./target/release/node-template --chain local --alice --tmp```
+
+启动第二个区块链节点 bob 
+```./target/release/node-template --chain local --bob --tmp```
+
+组成一个 本地测试网络
+
+启动第二个区块链节点，此命令包含--bootnodes选项并指定单个引导节点，即由 启动的节点alice 
+
+```./target/release/node-template --chain local --bob --tmp --bootnodes /ip4/127.0.0.1/tcp/30333/p2p/12D3KooWBGJ3YcEgqt2BjFmWDv2fkqWPkKrDreWiGyreA7z72UnW```
+
+
