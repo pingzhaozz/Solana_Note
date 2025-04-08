@@ -4,3 +4,6 @@
 [submodule "substrate_node_template"]
 	path = substrate_node_template
 	url = https://github.com/EurekaChen/substrate-node-template.git
+[submodule "solana_example"]
+	path = solana_example
+	url = https://github.com/solana-developers/program-examples.git
