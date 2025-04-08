@@ -110,6 +110,11 @@ PoH 通过创建一系列加密哈希（SHA256 算法），每次哈希计算都
 
 例子： https://github.com/solana-developers/program-examples/blob/main/basics/transfer-sol/anchor/programs/transfer-sol/src/lib.rs 
 
+### IDL
+
+IDL 是 Interface Definition Language 的缩写，主要用于 Anchor 框架，其作用类似于智能合约的“说明书”。是一个标准化的 JSON 文件，用于描述程序的指令（可以理解为函数）和账户。它类似于以太坊的 ABI 文件，帮助我们与智能合约交互。
+
+
 
 ### 常见词语
 | 平台      | 作用               | 主要特点                 | 风险               |
